@@ -79,11 +79,14 @@ ServerEvents.tags('item', (e) => {
     'occultism:soul_gem',
     'occultism:soul_shard',
     'occultism:satchel',
+    'occultism:storage_stabilizer_.*',
+    'occultism:familiar_ring'
 
     'ars_nouveau:mob_jar',
     'ars_elemental:curio_bag',
     'ars_elemental:caster_bag',
     'ars_additions:handy_haversack',
+    'ars_nouveau:source_jar'
 
     'shrink:shrink_bottle',
 
@@ -94,9 +97,19 @@ ServerEvents.tags('item', (e) => {
     'justdirethings:fluid_canister',
     'justdirethings:fuel_canister',
     'justdirethings:pocket_generator',
+    'justdirethings:experienceholder',
 
     'modern_industrialization:replicator',
     'modern_industrialization:helium_plasma_bucket',
+
+    'gag:time_sand_pouch',
+
+    'hyperbox:hyperbox',
+
+    'extendedae:package',
+
+    'apothic_enchanting:library',
+    'apothic_enchanting:ender_library',
   ];
 
   let exclusions = [
